@@ -1,0 +1,31 @@
+/* RASD — locally bundled fonts (no CDN).
+   IBM Plex Sans (EN) and IBM Plex Arabic are the design typography.
+   Mono in the Showcase falls back to system monospace; the same applies here. */
+@font-face {
+  font-family: 'Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/plex-sans-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/plex-sans-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Plex Arabic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/plex-ar-400-full.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Plex Arabic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/plex-ar-700-full.woff2') format('woff2');
+}
